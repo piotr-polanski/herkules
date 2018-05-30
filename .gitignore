@@ -1,6 +1,7 @@
 /_build
 /cover
 /deps
+/node_modules
 erl_crash.dump
 *.ez
 *.beam

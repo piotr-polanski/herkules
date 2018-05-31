@@ -5,3 +5,8 @@
 erl_crash.dump
 *.ez
 *.beam
+/doc
+/tmp
+/assets/node_modules
+/installer/_build
+/installer/tmp

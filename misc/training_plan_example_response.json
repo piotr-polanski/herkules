@@ -1,0 +1,76 @@
+{
+  "plan_treningowy":   {
+    "czas_trwania": "56 dni",
+    "typ": "ogolnorozwojowy",
+    "plany_tygodniowe": [
+      {
+        "dzien_tygodnia": "poniedzialek",
+        "cwiczenia": [
+          {
+            "nazwa": "wysoki step z hantlami",
+            "opis": "http://...",
+            "grupa_miesni": "Uda i posladki",
+            "serie": [
+              {
+                "powtorzenia": "8-12",
+                "obciazenie": 0,
+                "typ": "rozgrzewkowa"
+              },
+              {
+                "powtorzenia": "8-12",
+                "obciazenie": 1,
+                "typ": "normalna"
+              },
+              {
+                "powtorzenia": "8-12",
+                "obciazenie": 1.5,
+                "typ": "normalna"
+              },
+              {
+                "powtorzenia": "8-12",
+                "obciazenie": 2,
+                "typ": "normalna"
+              }
+            ]
+          },
+          {
+            "nazwa": "wyciskanie sztangi lezac",
+            "opis": "http://...",
+            "grupa_miesni": "klatka piersiowa",
+            "serie": [
+            ]
+          },
+          {
+            "nazwa": "wioslowanie sztankga",
+            "opis": "http://...",
+            "grupa_miesni": "grzbiet",
+            "serie": [
+            ]
+          },
+          {
+            "nazwa": "wyciskanie sztangi lezac",
+            "opis": "http://...",
+            "grupa_miesni": "Uda i posladki",
+            "serie": [
+            ]
+          },
+          {
+            "nazwa": "wyciskanie sztangi lezac",
+            "opis": "http://...",
+            "grupa_miesni": "Uda i posladki",
+            "serie": [
+            ]
+          }
+        ]
+      },
+      {
+        "dzien_tygodnia": "sroda",
+        "cwiczenia": []
+      },
+      {
+        "dzien_tygodnia": "piatek",
+        "cwiczenia": []
+      }
+    ]
+  }
+}

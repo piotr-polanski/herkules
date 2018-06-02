@@ -13,8 +13,8 @@
 import "phoenix_html"
 import React from "react"
 import ReactDom from "react-dom"
-
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import axios from "axios"
 
 		   
 class HelloReact extends React.Component {
@@ -31,10 +31,29 @@ class HelloReact extends React.Component {
 }
 
 class Home extends React.Component {
+constructor() {
+  super();
+  this.state= {plan: "nie udalo mi sie sciagnac planu :("};
+}
+componentWillMount() {
+  axios.post('/api/training_plan',
+    {
+      gender: "male",
+      age: 30
+    })
+    .then(response => {
+      console.log(response.data);
+      this.setState({plan: response.data.plan});
+    })
+    .catch(error => {
+      console.log(error);
+    });
+}
 render() {
   return (
       <div>
         <h1>Boring Home Page!</h1>
+	  <p>Plan: {this.state.plan}</p>
 	<Link to="/login">Login</Link>
       </div>
     )

@@ -1,0 +1,17 @@
+{
+
+  "gender": "male",
+  "age": "30",
+  "height": "185",
+  "activity_frequency": "average",
+  "activity_type": "running",
+  "time_avaliable": {
+      "monday": 1,
+      "tuesday": 0,
+      "wednesday": 1,
+      "thursday": 0,
+      "friday": 1,
+      "saturday": 0.5,
+      "sunday": 0.25
+  }
+}
